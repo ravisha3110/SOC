@@ -1,0 +1,61 @@
+# =====================================================================
+# CyberShield - .gitignore
+# =====================================================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Environment Variables & Sensitive Credentials
+.env
+.env.local
+.env.*.local
+*.secret
+*.pem
+*.key
+
+# Database Files
+*.sqlite
+*.sqlite3
+*.db
+database/*.db
+
+# Unit test and Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+.pytest_cache/
+reports/coverage_html/
+reports/screenshots/
+reports/*.html
+reports/*.csv
+reports/*.xml
+reports/*.json
+scratch/
+
+# PyInstaller build artifacts
+build/
+dist/
+
+# IDEs and Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
